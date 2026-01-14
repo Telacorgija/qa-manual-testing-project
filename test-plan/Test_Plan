@@ -1,0 +1,46 @@
+# Test Plan
+
+## Scope:
+- Authentication
+  - Registration
+  - Login
+  - Password Recovery
+- Catalog
+- Community
+
+## Test Types:
+- Manual functional testing
+- Exploratory testing
+- Positive and negative testing
+- Validation testing
+- UI/UX testing
+
+## Test Approach:
+- Testing was performed based on requirements analysis and exploratory testing.
+- Bugs were reported in Jira with detailed steps to reproduce, expected and actual results.
+
+## Test Data:
+- Valid and invalid emails
+- Emails with special characters and Cyrillic symbols
+- Passwords with different length and symbols
+- Rapid user actions (Multiple clicks)
+
+## Test Environment:
+- Web application: https://demowebshop.tricentis.com/
+- Browser: Microsoft Edge
+- OS: Windows 11
+
+## Found Issues:
+- Validation issues (email format, password rules)
+- UI/UX issues (action buttons are not disabled after submission, overlapping elements)
+- Logical issues (multiple form submissions)
+- Session handling issues (Session persistence)
+
+## Results:
+- Total bugs found: 21
+- Total test-cases written: 60
+
+## Potential risks:
+- Duplicate form submissions may lead to backend issues
+- Weak validation can cause problems with user data integrity  
+
