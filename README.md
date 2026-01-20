@@ -26,7 +26,6 @@ exploratory testing, and bug reporting.
 ## Tools Used
 - Jira
 - Zephyr Scale
-- Manual testing
 
 ## Test Environment
 - Web application: https://demowebshop.tricentis.com/
