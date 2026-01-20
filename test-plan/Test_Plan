@@ -16,7 +16,7 @@
 - UI/UX testing
 
 ## Test Approach:
-- Testing was performed based on requirements analysis and exploratory testing.
+- Testing was performed based on exploratory testing.
 - Bugs were reported in Jira with detailed steps to reproduce, expected and actual results.
 
 ## Test Data:
